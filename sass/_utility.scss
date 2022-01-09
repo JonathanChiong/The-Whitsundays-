@@ -1,0 +1,39 @@
+.container {
+  max-width: 960px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-bg {
+  background: rgb(13, 56, 67);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 56, 67, 1) 26%,
+    rgba(22, 70, 90, 1) 74%
+  );
+}
+
+section {
+  align-self: center;
+  height: 100vh;
+}
+
+.section-title {
+  font-size: 2rem;
+  line-height: 1.6rem;
+}
